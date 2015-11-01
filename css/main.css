@@ -1,0 +1,35 @@
+html {
+  font-family: 'Roboto';
+}
+
+/*-----------------------NAV---------------------*/
+
+header {
+  background-color: #48A792;
+}
+
+h1 {
+  color: white;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #48A792;
+}
+
+@media only screen and (min-width: 20em) {
+
+  li {
+    display: inline-block;
+
+  }
