@@ -2,6 +2,10 @@ html {
   font-family: 'Roboto';
 }
 
+h2, h1 {
+  font-family: 'Kreon';
+}
+
 /*-----------------------NAV---------------------*/
 
 header {
@@ -27,11 +31,8 @@ nav a:hover {
   color: #48A792;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 60em) {
 
-  li {
-    display: inline-block;
-  }
 
 }
 
@@ -49,20 +50,47 @@ main {
   position: absolute;
   display: block;
   text-align: center;
-  bottom: 10px;
+  top: 8rem;
   color: white;
   width: 100%;
-    text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
 }
 
-h2, h1 {
-  font-family: 'Kreon';
+@media only screen and (min-width: 20em) {
+
+  li {
+    display: inline-block;
+  }
+
 }
 
 /*----------------------MAIN------------------*/
 
+.button {
+  border-width: 2px;
+  border-style: solid;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 /*----------------------FOOTER------------------*/
 
 footer {
-  background-color: #F4842B; 
+  background-color: #F4842B;
+}
+
+footer li {
+  display: inline-block;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+}
+
+.icons {
+  float: left;
+  width: 25%;
+
 }
