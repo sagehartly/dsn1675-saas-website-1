@@ -9,7 +9,7 @@ h1, h2, h3 {
 /*-----------------------NAV---------------------*/
 
 header {
-  background-color: #48A792;
+  background-color: #468966;
 }
 
 h1 {
@@ -28,18 +28,21 @@ a {
 
 nav a:hover {
   background-color: white;
-  color: #48A792;
+  color: #468966;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 20em) {
 
+  li {
+    display: inline-block;
+  }
 
 }
 
-/*-----------------------HERO---------------------*/
+/*-----------------------INDEX.HTML---------------------*/
 
 main {
-  background-color: #F0C414;
+  background-color: #FFF0A5;
 }
 
 .hero-banner {
@@ -56,31 +59,23 @@ main {
   text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
 }
 
-@media only screen and (min-width: 20em) {
-
-  li {
-    display: inline-block;
-  }
-
-}
-
-/*----------------------MAIN------------------*/
-
 .button {
   border-width: 2px;
   border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+
   width: 40%;
   margin-left: 30%;
   margin-right: 30%;
 
-  background-color: black;
-  color: white;
+  background-color: #B64926;
 }
 
 /*----------------------FOOTER------------------*/
 
 footer {
-  background-color: #F4842B;
+  background-color: #FFB03B;
 }
 
 footer li {
