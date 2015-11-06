@@ -53,10 +53,28 @@ main {
   position: absolute;
   display: block;
   text-align: center;
-  top: 8rem;
+  top: 10rem;
   color: white;
   width: 100%;
   text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+.home-image {
+  position: relative;
+}
+
+.home-image-text {
+  position: absolute;
+  display: block;
+  z-index: 2;
+
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #FFF0A5;
+
+  text-align: center;
+  color: #FFF0A5;
 }
 
 .button {
@@ -101,5 +119,9 @@ footer a, footer p {
 .icons {
   float: left;
   width: 25%;
+}
 
+footer a:hover {
+  background-color: white;
+  color: #468966;
 }
