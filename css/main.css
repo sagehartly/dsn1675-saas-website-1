@@ -69,13 +69,24 @@ main {
   margin-left: 30%;
   margin-right: 30%;
 
-  background-color: #B64926;
+  background-color: #FFB03B;
+  color: black;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+   .hero-banner {
+    margin: 0 20%;
+    width: 60%;
+  }
+
 }
 
 /*----------------------FOOTER------------------*/
 
 footer {
-  background-color: #FFB03B;
+  background-color: #468966;
 }
 
 footer li {
@@ -83,7 +94,7 @@ footer li {
   width: 100%;
 }
 
-footer a {
+footer a, footer p {
   color: white;
 }
 
