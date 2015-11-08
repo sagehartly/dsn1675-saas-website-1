@@ -90,16 +90,15 @@ main a {
 }
 
 .button {
-  border-width: 2px;
-  border-style: solid;
   border-radius: 20px;
-  border-color: black;
-
   background-color: #FFB03B;
-  color: black;
 
   width: 40%;
   margin: 0 30%;
+}
+
+.button a {
+  color: black;
 }
 
 @media only screen and (min-width: 60em) {
@@ -119,7 +118,7 @@ main a {
   padding-left: 10%;
   padding-right: 10%;
 
-  background-color: 
+  background-color:
 }
 
 @media only screen and (min-width: 38em) {
@@ -134,11 +133,7 @@ main a {
   }
 }
 .pricing-button {
-  border-width: 2px;
-  border-style: solid;
   border-radius: 20px;
-  border-color: black;
-
   background-color: #FFB03B;
   color: black;
 
