@@ -160,7 +160,10 @@ main a {
 
 /*-----------------------TOUR.HTML---------------------*/
 
-
+.icons {
+  max-width: 10em;
+  margin: 0 auto;
+}
 
 
 /*----------------------FOOTER------------------*/
@@ -178,7 +181,7 @@ footer a, footer p {
   color: white;
 }
 
-.icons {
+.social-media {
   float: left;
   width: 25%;
   max-width: 6rem;
