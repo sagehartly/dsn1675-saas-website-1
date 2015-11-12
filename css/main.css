@@ -19,18 +19,14 @@ header {
 nav ol {
   list-style-type: none;
   padding-left: 0;
-
-}
-
-a {
-  text-decoration: none;
 }
 
 nav a {
   color: white;
+  text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   background-color: white;
   color: #468966;
 }
@@ -177,6 +173,15 @@ main a {
   padding-right: 1.3rem;
 }
 
+/*----------------------FOOTER------------------*/
+
+.sign-up-p {
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  width: 30%;
+  text-align: center;
+}
 
 /*----------------------FOOTER------------------*/
 
@@ -201,9 +206,4 @@ footer a, footer p {
   float: left;
   width: 25%;
   max-width: 5rem;
-}
-
-footer a:hover {
-  background-color: white;
-  color: #468966;
 }
