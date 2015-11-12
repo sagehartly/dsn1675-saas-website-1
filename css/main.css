@@ -16,8 +16,9 @@ header {
   max-width: 170px;
 }
 
-ol {
+nav ol {
   list-style-type: none;
+  padding-left: 0;
 
 }
 
@@ -34,10 +35,15 @@ nav a:hover {
   color: #468966;
 }
 
-@media only screen and (min-width: 20em) {
+nav li {
+  padding-left: 1.3rem;
+}
 
-  li {
+@media only screen and (min-width: 25em) {
+
+  nav li {
     display: inline-block;
+    padding-left: 0;
   }
 
 }
@@ -47,6 +53,7 @@ nav a:hover {
 main {
   background-color: #FFF0A5;
 }
+
 .main-body {
   background-color:  #FFB03B;
 }
@@ -68,8 +75,6 @@ main a {
   width: 100%;
   text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
 }
-
-
 
 .home-image {
   position: relative;
@@ -95,7 +100,6 @@ main a {
 .button {
   border-radius: 20px;
   background-color: #FFB03B;
-
   width: 40%;
   margin: 0 30%;
 }
@@ -178,6 +182,10 @@ main a {
 
 footer {
   background-color: #468966;
+}
+
+footer ol {
+  padding-left: 0;
 }
 
 footer li {
