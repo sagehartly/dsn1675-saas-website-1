@@ -179,7 +179,8 @@ main a {
   border-style: solid;
   border-color: black;
   background-color: white;
-  width: 30%;
+  width: 50%;
+  margin: 1.3rem auto;
   text-align: center;
 }
 
