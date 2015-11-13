@@ -104,10 +104,14 @@ main a {
   color: black;
 }
 
+.button a:hover {
+  color: white;
+}
+
 @media only screen and (min-width: 60em) {
 
-  .hero-image {
-    padding-left: 1.3rem;
+  .main-body {
+    padding-top: 3.9rem;
   }
 
 }
