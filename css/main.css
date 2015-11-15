@@ -135,7 +135,7 @@ main a {
   border-radius: 20px;
   background-color: #FFB03B;
   color: black;
-  max-width: 10rem;
+  max-width: 12rem;
   margin: 0 auto;
 }
 
@@ -156,14 +156,6 @@ main a {
   .pricing-unit {
     padding-left: 1.3rem;
     padding-right: 1.3rem;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .pricing-button {
-    max-width: 80%;
   }
 
 }
