@@ -14,14 +14,19 @@
 </head>
 <body>
 
-<header class="grid nav pad-top">
+<ul class="skip-links">
+    <li><a href="#main">Jump to main content.</a></li>
+    <li><a href="#nav">Jump to navigation.</a></li>
+</ul>
+
+<header id="nav" class="grid nav pad-top" role="banner">
   <div class="unit xs-1 s-1-4 m-1-3 l-1-4">
     <div class="logo island push embed embed-2.5by1">
         <a href="index.html"><img class="embed__item" src="images/logo.svg" alt="#"></a>
     </div>
   </div>
 
-  <nav class="unit xs-1 s-3-4 m-2-3 l-3-4">
+  <nav class="unit xs-1 s-3-4 m-2-3 l-3-4" role="nav">
     <ol class="mega pad-top-half push-0">
       <li class="push-1-2"><a class="island-1-2" href="tour.html">What We Do</a></li>
       <li class="push-1-2"><a class="island-1-2" href="pricing.html">Pricing</a></li>
@@ -30,7 +35,7 @@
   </nav>
 </header>
 
-<main>
+<main id="main" role="main">
 
 <h3 class="title-banner exa island-1-2 text-center push-0">What We Do</h3>
 
@@ -103,14 +108,17 @@
   <div class="unit xs-1 s-1-2 m-1-4 l-1-4 gutter">
     <p class="push-1-4">info@plan-it.com</p>
     <p class="push-1-4">613-222-2222</p>
-    <p class="push-1-4">123 Street St. Ottawa</p>
+    <p class="push-1-4">Ottawa, ON</p>
+    <div class="micro" role="contentinfo">
+      <p>© 2015 SAAS</p>
+    </div>
   </div>
 
   <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right">
-    <a href="#"><img class="icons social-media island-1-2" src="images/facebook.svg" alt="Link to Facebook."></a>
-    <a href="#"><img class="icons social-media island-1-2" src="images/twitter.svg" alt="Link to Twitter."></a>
-    <a href="#"><img class="icons social-media island-1-2" src="images/instagram.svg" alt="Link to Instagram."></a>
-    <a href="#"><img class="icons social-media island-1-2" src="images/linked-in.svg" alt="Link to Linked In."></a>
+    <a href="#"><img class="icons social-media island-1-2" src="images/facebook.svg" alt="Facebook."></a>
+    <a href="#"><img class="icons social-media island-1-2" src="images/twitter.svg" alt="Twitter."></a>
+    <a href="#"><img class="icons social-media island-1-2" src="images/instagram.svg" alt="Instagram."></a>
+    <a href="#"><img class="icons social-media island-1-2" src="images/linked-in.svg" alt="Linked In."></a>
   </div>
 </footer>
 
