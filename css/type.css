@@ -96,6 +96,10 @@ fieldset, pre, table {
   margin: 0 0 1.3rem;
 }
 
+.real-big {
+  font-size: 2.497rem;
+}
+
 .yotta {
   font-size: 1.5745rem;
   line-height: 1.6513;
