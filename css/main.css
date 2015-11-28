@@ -52,7 +52,6 @@ main {
 
 .main-body {
   background-color:  #FFB03B;
-
 }
 
 main a {
@@ -94,7 +93,7 @@ main a {
   z-index: 2;
   bottom: 10px;
   width: 60%;
-  margin: 0 30%;
+  margin: 0 20%;
 
   border-width: 4px;
   border-style: solid;
@@ -126,7 +125,7 @@ main a {
 @media only screen and (min-width: 60em) {
 
   .main-body {
-    padding-top: 3.9rem;
+
   }
 
 }
