@@ -183,13 +183,16 @@ main a {
 
 /*----------------------SIGNUP------------------*/
 
-.sign-up-p {
-  border-style: solid;
-  border-color: black;
-  background-color: white;
-  width: 50%;
-  margin: 1.3rem auto;
-  text-align: center;
+.button {
+  margin: 0 auto;
+}
+
+button {
+  border-radius: 40px;
+  background-color: #FFB03B;
+  border: none;
+  max-width: 12rem;
+  font-family: 'Kreon', serif;
 }
 
 label {
@@ -198,6 +201,10 @@ label {
 
 input + label {
   display: inline;
+  cursor: pointer;
+}
+
+button {
   cursor: pointer;
 }
 
