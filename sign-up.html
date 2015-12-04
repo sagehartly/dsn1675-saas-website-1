@@ -39,12 +39,51 @@
 
 <h3 class="title-banner exa island-1-2 text-center push-0">Sign up today to organize your life!</h3>
 
-<div class="island sign-up">
-  <p class="sign-up-p island-1-4">Your Name </p>
-  <p class="sign-up-p island-1-4">Your Username </p>
-  <p class="sign-up-p island-1-4">Your E-Mail Address </p>
-  <p class="sign-up-p island-1-4">Create Password </p>
+<form>
+
+<div class="grid pad-top push">
+
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <div class="push gutter">
+      <label for="name">Your Name</label>
+      <input id="name" type="text" name="name" required>
+    </div>
+
+    <div class="push gutter">
+      <label for="email">Your Email</label>
+      <input id="email" type="email" name="email" required placeholder="you@gmail.com">
+    </div>
+  </div>
+
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <div class="push gutter">
+      <label for="password">Create Password</label>
+      <input id="password" type="password" name="password" required>
+    </div>
+
+    <div class="push gutter">
+      <label for="password">Confirm Password</label>
+      <input id="password" type="password" name="password" required>
+    </div>
+  </div>
+
 </div>
+
+  <fieldset class="gutter radio-buttons pad-top-1-2 text-center">
+    <legend>Choose your plan</legend>
+
+    <input id="free" type="radio" name="plan" value="free">
+    <label for="free" class="radio-label bold">FREE</label>
+
+    <input id="plus" type="radio" name="plan" value="plus">
+    <label for="plus" class="radio-label bold">PLUS</label>
+
+    <input id="premium" type="radio" name="plan" value="premium">
+    <label for="premium" class="bold">PREMIUM</label>
+
+  </fieldset>
+
+</form>
 
 <h3 class="giga pricing-button text-center push-0 island-1-2"><a href="sign-up.html">Create Account!</a></h3>
 

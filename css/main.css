@@ -192,6 +192,23 @@ main a {
   text-align: center;
 }
 
+label {
+  display: block;
+}
+
+input + label {
+  display: inline;
+  cursor: pointer;
+}
+
+.radio-buttons {
+  border: none;
+}
+
+.radio-label {
+  padding-right: 1em;
+}
+
 /*----------------------FOOTER------------------*/
 
 footer {
