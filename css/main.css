@@ -216,8 +216,9 @@ button {
   padding-right: 1em;
 }
 
-fieldset {
+fieldset +.payment-methods {
   border: none;
+  background-color:#FFB03B;
 }
 
 /*----------------------FOOTER------------------*/
