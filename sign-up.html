@@ -56,12 +56,12 @@
   </div>
 
   <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    <div class="push gutter">
+    <div class="push gutter-double">
       <label for="password">Create Password</label>
       <input id="password" type="password" name="password" required>
     </div>
 
-    <div class="push gutter">
+    <div class="push gutter-double">
       <label for="password">Confirm Password</label>
       <input id="password" type="password" name="password" required>
     </div>
@@ -73,19 +73,48 @@
     <legend>Choose your plan</legend>
 
     <input id="free" type="radio" name="plan" value="free">
-    <label for="free" class="radio-label bold">FREE</label>
+    <label for="free" class="radio-label bold giga">FREE</label>
 
     <input id="plus" type="radio" name="plan" value="plus">
-    <label for="plus" class="radio-label bold">PLUS</label>
+    <label for="plus" class="radio-label bold giga">PLUS</label>
 
     <input id="premium" type="radio" name="plan" value="premium">
-    <label for="premium" class="bold">PREMIUM</label>
+    <label for="premium" class="bold giga">PREMIUM</label>
   </fieldset>
 
   <fieldset>
-    <legend>Payment method</legend>
+    <legend class="push text-center yotta">Payment method</legend>
 
-    
+    <div class="gutter-double push">
+      <label for="subject">Credit Card Type</label>
+      <select id="subject" name="_subject">
+        <option></option>
+        <option>Mastercard</option>
+        <option>Visa</option>
+      </select>
+    </div>
+
+    <div class="grid">
+      <div class="push gutter-double unit xs-1 s-1 m-1-2 l-1-2">
+        <label for="cc-name">Name on Credit Card</label>
+        <input id="cc-name" type="text" name="cc-name" required>
+      </div>
+
+      <div class="push gutter-double unit xs-1 s-1 m-1-2 l-1-2">
+        <label for="cc-number">Credit Card Number</label>
+        <input id="cc-number" type="text" name="cc-number" required>
+      </div>
+
+    <div class="push gutter-double unit xs-1 s-1 m-1-2 l-1-2">
+      <label for="cc-date">Expiration Date</label>
+      <input id="cc-date" type="text" name="cc-date" required>
+    </div>
+
+    <div class="push gutter-double unit xs-1 s-1 m-1-2 l-1-2">
+      <label for="cc-code">Security Code</label>
+      <input id="cc-code" type="text" name="cc-code" required>
+    </div>
+
 
   </fieldset>
 
