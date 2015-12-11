@@ -81,6 +81,11 @@ main a {
 
 .button-top a {
   color: white;
+  text-decoration: none;
+}
+
+.button-top a:hover {
+  color:#468966;
 }
 
 .home-image {
@@ -103,32 +108,29 @@ main a {
   text-align: center;
 }
 
+.home-image-text a {
+  text-decoration: none;
+}
+
 .home-image-text a:hover {
-  color: #FFB03B;
+  color: white;
 }
 
 .button {
   border-radius: 40px;
   background-color: #FFB03B;
-  width: 40%;
-  margin: 0 30%;
+  margin: 0;
 }
 
 .button a {
   color: black;
+  text-decoration: none;
 }
 
 .button a:hover {
   color: white;
 }
 
-@media only screen and (min-width: 60em) {
-
-  .main-body {
-
-  }
-
-}
 /*-----------------------PRICING.HTML---------------------*/
 
 .title-banner {
@@ -155,6 +157,7 @@ main a {
 
 .pricing-button a {
   color: black;
+  text-decoration: none;
 }
 
 .pricing-button a:hover {
@@ -185,13 +188,14 @@ main a {
 
 .button {
   margin: 0 auto;
+    max-width: 10rem;
 }
 
 button {
   border-radius: 40px;
   background-color: #FFB03B;
   border: none;
-  max-width: 12rem;
+
   font-family: 'Kreon', serif;
 }
 
