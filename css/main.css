@@ -119,7 +119,8 @@ main a {
 .button {
   border-radius: 40px;
   background-color: #FFB03B;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 14rem;
 }
 
 .button a {
@@ -185,18 +186,12 @@ main a {
 }
 
 /*----------------------SIGNUP------------------*/
-
-.button {
-  margin: 0 auto;
-    max-width: 10rem;
-}
-
 button {
   border-radius: 40px;
   background-color: #FFB03B;
   border: none;
-
   font-family: 'Kreon', serif;
+  cursor: pointer;
 }
 
 label {
@@ -205,10 +200,6 @@ label {
 
 input + label {
   display: inline;
-  cursor: pointer;
-}
-
-button {
   cursor: pointer;
 }
 
