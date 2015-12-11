@@ -74,18 +74,18 @@ main a {
 
 .button-top {
   border-radius: 40px;
-  background-color: #468966;
+  background-color: #FFF0A5;
   width: 60%;
   margin: 0 20%;
 }
 
 .button-top a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 .button-top a:hover {
-  color:#468966;
+  color: #FFB03B;
 }
 
 .home-image {
