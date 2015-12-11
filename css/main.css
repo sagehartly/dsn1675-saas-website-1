@@ -171,11 +171,6 @@ main a {
     text-align: left;
   }
 
-  .pricing-unit {
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-  }
-
 }
 
 /*-----------------------TOUR.HTML---------------------*/
@@ -186,6 +181,7 @@ main a {
 }
 
 /*----------------------SIGNUP------------------*/
+
 button {
   border-radius: 40px;
   background-color: #FFB03B;
